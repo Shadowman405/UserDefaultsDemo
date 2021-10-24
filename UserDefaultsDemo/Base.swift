@@ -10,7 +10,6 @@ import Foundation
 class Base {
     
     let defaults = UserDefaults.standard
-    
     static let shared = Base()
     
     struct UserAdress: Codable {
